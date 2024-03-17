@@ -1,0 +1,44 @@
+.imageSize {
+    width: 100%;
+    height: auto;
+}
+
+.colDesign {
+    background-color: rgb(71, 71, 71);
+    margin: 10px;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.txtDesign {
+    font-size: calc(16px + 0.5vw); 
+}
+
+.full-page-div {
+    left: 0;
+    background-color: #757e80;
+}
+
+
+@media (min-width: 1200px) {
+    .spacing {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .spacing {
+        margin-left: calc(10vw);
+        margin-right: calc(10vw);
+    }
+}
+
+
+@media (max-width: 600px) {
+    .spacing {
+        margin-left: calc(5vw);
+        margin-right: calc(5vw);
+    }
+}
