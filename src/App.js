@@ -7,6 +7,7 @@ import PageTwoComponent from './Components/Pages/PageTwoComponent';
 import PageThreeComponent from './Components/Pages/PageThreeComponent';
 import PageFourComponent from './Components/Pages/PageFourComponent';
 import PageFiveComponent from './Components/Pages/PageFiveComponent';
+import HomePageComponent from './Components/HomePageComponent';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
     <NavbarComponent/>
     <Routes>
     
-        {/* <Route path='/' element={<HomePageComponent/>}/> */}
+        <Route path='/' element={<HomePageComponent/>}/>
         <Route path='/pageOne' element={<PageOneComponent/>}/>
         <Route path='/pageTwo' element={<PageTwoComponent/>}/>
         <Route path='/pageThree' element={<PageThreeComponent/>}/>
