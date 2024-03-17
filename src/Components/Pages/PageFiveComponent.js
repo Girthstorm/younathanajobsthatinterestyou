@@ -10,10 +10,10 @@ const PageFiveComponent = () => {
     <div className='full-page-div5'>
       <div className='spacing'>
         <div className='d-flex justify-content-center'>
-          <img className='mt-5 mb-5 nvidiaImg' src={PlayStation}></img>
+          <img className='mt-5 mb-5 nvidiaImg' alt='Playstation Logo' src={PlayStation}></img>
         </div>
         <div className='d-flex justify-content-center'>
-          <img className='imageSize' src={PlayStationGuy}></img>
+          <img className='imageSize' alt='PlayStation Headquarters' src={PlayStationGuy}></img>
         </div>
         <Container fluid className='mt-5  text-white'>
           <Row>

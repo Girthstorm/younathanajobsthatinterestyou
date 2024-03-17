@@ -16,10 +16,10 @@ const PageFourComponent = () => {
     <div className='full-page-div2'>
       <div className='spacing'>
         <div className='d-flex justify-content-center'>
-          <img className='mt-5 mb-5 nvidiaImg' src={Riot}></img>
+          <img className='mt-5 mb-5 nvidiaImg' alt='Riot Games Logo' src={Riot}></img>
         </div>
         <div className='d-flex justify-content-center'>
-          <img className='imageSize' src={RiotGuy}></img>
+          <img className='imageSize' alt='Riot Studios Lobby' src={RiotGuy}></img>
         </div>
         <Container fluid className='mt-5  text-white'>
           <Row>
@@ -54,12 +54,12 @@ const PageFourComponent = () => {
               <div>
                 <h3 className='text-center'>Do I currently have the skill-sets for the job?</h3>
                 <hr />
-                <p className='txtDesign'>Unfortunately I do not. As of this moment I am lacking practical experience with the aforementioned languages and there are no open positions on the valorant team so I am sad now :( </p>
+                <p className='txtDesign'>Unfortunately I do not. As of this moment I am lacking practical experience with the aforementioned languages and there are no open positions on the Valorant team so I am sad now :( </p>
               </div>
             </Col>
           </Row>
         </Container>
-        <p className='text-center text-white'>I couldnt find an exact job listing so I found something similar</p>
+        <p className='text-center text-white'>I couldn't find an exact job listing so I found something similar</p>
         <div className='d-flex justify-content-center mt-5 pb-5 '>
           
           <Button href='https://www.riotgames.com/en/work-with-us/job/5652130/staff-software-engineer-rendering-league-of-legends-los-angeles-usa' target='_blank'> Job Listing</Button>

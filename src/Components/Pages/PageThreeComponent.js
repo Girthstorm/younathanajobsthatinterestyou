@@ -16,10 +16,10 @@ const PageThreeComponent = () => {
     <div className='full-page-div'>
       <div className='spacing'>
         <div className='d-flex justify-content-center'>
-          <img className='mt-5 mb-5 nvidiaImg' src={Nvidia}></img>
+          <img className='mt-5 mb-5 nvidiaImg' alt='NVIDIA logo' src={Nvidia}></img>
         </div>
         <div className='d-flex justify-content-center'>
-          <img className='imageSize' src={NvidiaGuy}></img>
+          <img className='imageSize' alt='NVIDIA Headquarters Stairs' src={NvidiaGuy}></img>
         </div>
         <Container fluid className='mt-5  text-white'>
           <Row>

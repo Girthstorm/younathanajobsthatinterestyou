@@ -14,10 +14,10 @@ const PageOneComponent = () => {
     <div className='full-page-div'>
       <div className='spacing'>
         <div className='d-flex justify-content-center'>
-          <img className='mt-5 mb-5' src={Rivian}></img>
+          <img className='mt-5 mb-5' alt='Rivian Logo' src={Rivian}></img>
         </div>
         <div className='d-flex justify-content-center'>
-          <img className='imageSize' src={RivianGuy}></img>
+          <img className='imageSize' alt='Rivian Driving along mountain road' src={RivianGuy}></img>
         </div>
         <Container fluid className='mt-5  text-white'>
           <Row>
